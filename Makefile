@@ -6,7 +6,7 @@ else
 endif
 CPPFLAGS :=
 CFLAGS   := -std=c11 -pedantic -Wall $(OFLAGS)
-LDFLAGS  := -lc
+LDFLAGS  := -lc -lm
 
 CC = cc
 
